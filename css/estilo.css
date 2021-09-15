@@ -152,6 +152,6 @@ h1{
 	margin-top: -3%;
 }
 
-@media (min-width: 768px) and (max-width:  991px) {
-	body {  background-image: url(../img/fondo.png); }
-}
+@media (min-width: 576px) and (max-width: 767px) {
+body{ background-color: yellow; }
+ }
