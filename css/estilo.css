@@ -155,3 +155,13 @@ h1{
 @media (min-width: 1200px) and (max-width:  1399px) {
 	body {  background-image: url(../img/fondo.png); }
 }
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+	max-width: 1280px;
+	max-height: 720px;
+	margin-left: auto;
+	margin-right: auto;
+}
