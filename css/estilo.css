@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+	max-width: 1280px;
+	max-height: 720px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body{
+	background-image: url(../img/fondo.png);
+	font-family: 'Montserrat', sans-serif;
+}
+
+header{
+	width: 	100%;
+	height: 100px;
+	background-color: #C1404A;
+}
+
+section{
+	width: 	100%;
+	height: 571px;
+	background-color: #FFC0C0;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+footer{
+	width: 	100%;
+	height: 50px;
+	background-color: #C1404A;
+}
+
+nav li {
+	display: inline;
+}
+
+nav li a {
+	margin-right: 7%;
+	margin-top: 2%;
+	float: right;
+	text-decoration: none;
+}
+
+.floto{
+	float: left;
+	margin-left: 40%;
+	margin-top: 2%;
+}
+
+#menu li a {
+	font-size: 17px;
+	text-decoration: none;
+	margin-top: -30px;
+	margin-right: : 100px;
+	color: #ffffff;
+	clear: both;
+	float: right;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#menu li {
+	display: inline;
+}
+
+.fuente2{
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	font-size: 20px;
+	text-decoration: none;
+	margin-right: 0%;
+	margin-top: 10%;
+	margin-left: 45%;
+}
+
+.titulo {
+	font-family: 'Montserrat', sans-serif;
+	color: #000000;
+	font-size: 35px;
+	margin-top: 5px;
+	margin-left: 91px;
+	clear: both;
+	text-decoration: underline;
+}
+
+.patricio {
+	margin-top: -4%;
+	margin-right: 2%;
+	float: right;
+}
+
+#caja {
+	width: 600px;
+	height: 360px;
+	border-radius: 	5px 5px 5px 5px;
+	margin-top: 3%;
+	margin-left: 7%;
+	float: left;
+	padding: 2%;
+	column-count: 2;
+	column-gap: 45px;
+	border-width: 2px;
+	box-shadow: 10px 10px 10px #A26C6F;
+	background-color: #ffffff;
+}
+
+.fuente1{
+	font-family: 'Montserrat', sans-serif;
+	color: #000000;
+	margin:5%;
+	font-size: 16px;
+}
+
+h1{ 
+	font-size: 22px;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 1%;
+}
+
+#nickelodeon{
+	float: left;
+	margin-top: 3.3%;
+	margin-left: 2.3%;
+}
+
+.nombre{
+	font-family: 'Ubuntu', sans-serif;
+	color: #f5f6fa;
+	float: left;
+	font-size: 14px;
+	text-decoration: none;
+	text-align: center;
+	width: 20%;
+	padding: 1%;
+	margin-left: 23%;
+	margin-top: 0.6%;
+	font-size: 15px;
+}
+
+#uces li {
+	display: inline;
+}
+
+#uces li a{
+	float: right;
+	margin-right: 3%;
+	margin-top: -3%;
+}
+
+@media (min-width: 1200px) and (max-width:  1399px) {
+	body {  background-image: url(../img/fondo.png); }
+}
